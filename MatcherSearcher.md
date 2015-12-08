@@ -1,0 +1,3 @@
+The MatcherSearcher class can search for any Matcher implementation.  It simply tries each position in turn until it finds a match.  This is sometimes known as the [naive](http://en.wikipedia.org/wiki/String_searching_algorithm#Na.C3.AFve_string_search) search algorithm.
+
+For ByteMatcher implementations, there is no better search algorithm. For more complex Matcher implementations (e.g. SequenceMatcher or MultiSequenceMatcher), there are often specialised Searcher implementations which will search faster.
